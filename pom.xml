@@ -205,6 +205,14 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+         
+    <repositories>
+     <repository>
+        <id>nexus-snapshot</id>
+        <name>nexus</name>
+        <url>https://http://3.23.129.93:8081/repository/mavensnapshot</url>
+    </repository>
+</repositories>
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
